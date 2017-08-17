@@ -60,6 +60,7 @@ h2 {
 .background-pattern{
 background-image: url("../images/concrete.png");
 height: 800px;
+overflow: scroll;
 
 
 }
@@ -70,7 +71,7 @@ height: 800px;
     background-color: white;
     margin-left: 70px;
     margin-top: 30px;
-    height: 550px;
+    height: 700px;
     margin-right: 0px; 
     display:inline-block;
 }
@@ -199,7 +200,8 @@ footer {
 }
 
 .portfolio-div {
-    height: 610px;
+    height: 890px;
+    overflow: scroll;
 }
 
 #git-img{
@@ -211,4 +213,26 @@ footer {
 #git-img:hover{
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
+}
+
+/* targets green inside portfolio images */
+.space {
+    position: relative;
+}
+
+h4 {
+    text-align: center;
+    background-color:#4aaaa5;
+    padding: 20px;
+    width: 259;
+    color: white;
+
+}
+
+.aboutme-div{
+    height: 600px;
+
+}
+.contact-div {
+    height: 550px;
 }
