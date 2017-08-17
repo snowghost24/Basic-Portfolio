@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,52 +9,58 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Contact</title>
 </head>
+
 <body>
     <div id="wrapper">
         <div>
             <header>
-                <h2 id="header-name">Jose Guzman</h2>
+                <h1 id="header-name">Jose Guzman</h1>
                 <div class="tabs">
-                        <a href="index.html">About</a>
-                        <a href="portfolio.html" id="tab-borders">Porfolio</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html" id="tab-borders">Porfolio</a>
+                    <a href="contact.html">Contact</a>
+                </div>
             </header>
         </div>
-        <div>
-            <div id="contact-form">
-                <h2>Contact</h2>
-                <hr>
+        <div class="background-pattern">
+            <div class="contact-div div-dimentions">
+                <h2 class="thegreen">Contact</h2>
+
                 <div id="form-div">
                     <form>
-                        <label for="name-input">Name</label><br>
-                        <input type="text" name="" value="" id="name-input" placeholder="John Smith"><br>
-                        <label for="email-input">Email</label><br>
-                        <input type="text" name="" value="" id="email-input" placeholder="og1ginobili@gmail.com"><br>
-                        <label for="message-input">Message</label><br>
-                        <textarea rows="20" cols="80" id="message-input"></textarea><br>
-                        <button type="submit">Submit</button>
+                        <label class="form-element-spacer" for="name-input">Name</label><br>
+                        <input class="form-element-spacer" type="text" name="" value="" id="name-input" placeholder="John Smith" size="89"><br>
+                        <label class="form-element-spacer" for="email-input">Email</label><br>
+                        <input class="form-element-spacer" type="text" name="" value="" id="email-input" placeholder="og1ginobili@gmail.com" size="89"><br>
+                        <label class="form-element-spacer" for="message-input">Message</label><br>
+                        <textarea class="form-element-spacer" rows="12" cols="89" id="message-input"></textarea><br>
+                        <button class="form-element-spacer" id="form-button" type="submit">Submit</button>
                     </form>
                 </div>
             </div>
-            <div id="connect-with-me">
-                    <h2>Connect With Me</h2>
-                    <hr>
-                    <img src="assets/images/github.svg" alt="github icon and href">
-                    <img src="assets/images/linkedin.svg" alt="linkedin icon and href">
-                    <img src="assets/images/stackoverflow.svg" alt="stackoverflow icon and href">
-
-
+            <div id="connect-box">
+                <div class="connect-div">
+                    <h3>Connect with me</h3>
                 </div>
+
+                <div class="connect-img-div">
+                        <a href="https://github.com/snowghost24"><img style="margin-bottom: 4px;" class="connect-img" src="assets/images/github.svg" alt="github icon and href"></a>
+                        <a href="https://www.linkedin.com/in/jose-guzman-05746375/"><img class="connect-img" src="assets/images/linkedin.svg" alt="linkedin icon and href"></a>
+                        <a href="https://stackoverflow.com/users/8027693/jose-guzman"><img class="connect-img" src="assets/images/stackoverflow.svg" alt="stackoverflow icon and href"></a>
+                    </div>
+
+
+            </div>
 
         </div>
         <footer>
-                &copy; Copyright OG1Ginobili
-
-        </footer>
+                <div id="copyright">
+                &copy; Copyright Snowghost</div>
+            </footer>
 
 
     </div>
 
 </body>
+
 </html>
