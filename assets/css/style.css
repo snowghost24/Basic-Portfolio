@@ -4,6 +4,7 @@
     margin-right: auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     overflow: scroll;
+    position: relative;
 
 }
 /* targets the heading */
@@ -180,9 +181,9 @@ footer {
     background-color: #666666;
     height: 100px;
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
-    left: 72px;
+    left: 0px;
     border-top: 10px solid  #4aaaa5;
     width: 1060px;
 
@@ -211,4 +212,3 @@ footer {
     -webkit-transform: rotate(360deg); /* Safari */
     transform: rotate(360deg);
 }
-
