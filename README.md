@@ -6,5 +6,7 @@ In this portfolio I display basic html and css skill.
 - inserting images without distorting proportions
 - creating list items
 - centering items in an unorder-list
+- inserting links and icons
+- centering elements
 
 
